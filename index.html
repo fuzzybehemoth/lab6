@@ -15,7 +15,18 @@
 
 <script>
 var video = document.getElementById("music_video");
-video.currentTime = 5;
+if (video.currentTime == 5 || video.currentTime == 10 || video.currentTime == 15)
+  display_stanza(video.currentTime);
+function display_stanza(time){
+  if (time == 5) //replace with better number
+    //display stanza 1;
+  if (time == 10)
+    //display stanza 2;
+    //display image;
+  if (time == 15)
+    //display stanza 3;
+    //display image;
+}
 /*The sun shines bright in My Old Kentucky Home,
 'Tis summer, the people are gay;
 The corn-top's ripe and the meadow's in the bloom
